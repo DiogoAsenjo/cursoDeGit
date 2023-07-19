@@ -29,3 +29,4 @@ git stash pop - para usar as alterações feitas com o git stash e já tirar da 
 git checkout "código do commit" - para voltar no tempo na época do commit, quando fizer isso e quiser usar de fato o código, deve criar uma nova branch se não fica perdido;
 git diff "código do commit mais antigo".."código do commit mais novo" - para ver as atualizações feita entre os commits;
 git tag -a "v0.1.0" -m "mensagem" - para criar tags;
+git push origin "nome da tag" - para finalizar a criação da tag;
