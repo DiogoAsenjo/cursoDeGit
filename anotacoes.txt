@@ -1,0 +1,24 @@
+Comando uteis para git e uso do terminal no geral:
+
+pwd - mostra a localização atual;
+cd (change directory) - para navegar entre os diretórios;
+ls (list) - para listar os arquivos e diretórios do local;
+touch - para criar novos arquivos;
+mkdir - para criar novos diretórios;
+git init - inicia o repositório no local;
+git status - mostra a situação do projeto;
+git add "file" ou . - adiciona o arquivo específicio ou todos os arquivos para o próximo commit;
+git commit -m "mensagem" - commit e a mensagem informando o que aconteceu;
+git log (--oneline para ver em uma linha ou -p para ver mais detalhes)- mostra o histórico de commits;
+.gitignore - para ignorar arquivos ou pasta é necessário criar um arquivo chamado ".gitignore" e colocar o "arquivo" ou "pasta/" para que funcione;
+git remote add "local" - para vincular a um servidor git;
+git clone "endereço" - para clocar o repositório;
+git push "local" "branch" - para enviar os dados para o servidor;
+git pull - para buscar os dados do servidor;
+git branch - mostra todas as branchs;
+git branch "nome" - cria o branch nome;
+git checkout nome - vai para o branch nome;
+git checkout -b "nome" - cria e já vai para a branch;
+git merge "branch" - para dar o merge, você deve estar na branch que quer atualizar e a "branch" do comando é a qual você irá puxar os dados;
+git rebase "branch" - é tipo o merge, mas tem umas diferenças técnicas que não etnendi muito bem rsrs;
+git checkout -- "nome do arquivo" - para desfazer todas as alterações feitas antes de um git add ou commit;
