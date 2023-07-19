@@ -21,4 +21,10 @@ git checkout nome - vai para o branch nome;
 git checkout -b "nome" - cria e já vai para a branch;
 git merge "branch" - para dar o merge, você deve estar na branch que quer atualizar e a "branch" do comando é a qual você irá puxar os dados;
 git rebase "branch" - é tipo o merge, mas tem umas diferenças técnicas que não etnendi muito bem rsrs;
-git checkout -- "nome do arquivo" - para desfazer todas as alterações feitas antes de um git add ou commit;
+git checkout -- "nome do arquivo" - para desfazer todas as alterações feitas antes de um git add;
+git reset HEAD "nome do arquivo" - para desfazer o git add caso ainda queria alterar o arquivo;
+git revert "código do commit (ver com o git log)" - para desfazer um commit ou um push errado;
+git stash - para salvar coisas que não terminou mas quer usar depois;
+git stash pop - para usar as alterações feitas com o git stash e já tirar da stash list;
+git checkout "código do commit" - para voltar no tempo na época do commit, quando fizer isso e quiser usar de fato o código, deve criar uma nova branch se não fica perdido;
+
