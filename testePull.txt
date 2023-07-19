@@ -1,2 +1,3 @@
 Arquivo para testar o comando git pull.
 Fazendo mais um teste.
+Aproveitando o arquivo para fazer um teste de rebase.
