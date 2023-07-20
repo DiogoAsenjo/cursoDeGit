@@ -30,3 +30,4 @@ git checkout "código do commit" - para voltar no tempo na época do commit, qua
 git diff "código do commit mais antigo".."código do commit mais novo" - para ver as atualizações feita entre os commits;
 git tag -a "v0.1.0" -m "mensagem" - para criar tags;
 git push origin "nome da tag" - para finalizar a criação da tag;
+git chery-pick "código do commit" - para puxar o conteúdo do commit para a branch atual;
